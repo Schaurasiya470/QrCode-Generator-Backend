@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Schaurasiya470/QrCode-Generator-Backend/issues"
   },
-  "homepage": "https://github.com/Schaurasiya470/QrCode-Generator-Backend#readme"
+  "homepage": "https://github.com/Schaurasiya470/QrCode-Generator-Backend#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "qrcode": "^1.5.4"
+  }
 }
