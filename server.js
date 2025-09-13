@@ -19,7 +19,7 @@ app.post("/api/generate", async (req, res) => {
     lastCard = { name, phone, email, company, website, role };
 
     // Generate QR that points to /card
-    const qrUrl = await QRCode.toDataURL("http://localhost:5000/card");
+    const qrUrl = await QRCode.toDataURL("https://web-qr-code-generator.onrender.com/api/generate/card");
 
     res.json({ qrUrl, card: lastCard });
   } catch (err) {
