@@ -1,0 +1,20 @@
+{
+  "name": "qrcode-generator-backend",
+  "version": "1.0.0",
+  "description": "Qr Code Generator Backend Code",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Schaurasiya470/QrCode-Generator-Backend.git"
+  },
+  "author": "Sachin Chaurasiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Schaurasiya470/QrCode-Generator-Backend/issues"
+  },
+  "homepage": "https://github.com/Schaurasiya470/QrCode-Generator-Backend#readme"
+}
